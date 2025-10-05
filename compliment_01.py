@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: John Jones
+# DATE: 10/1/25
+# BRIEF DESCRIPTION:  Program that asks the user if they would like a compliment. If they answer "yes", the program gives them a compliment. If they answer anything else, the program ends.
 
 
 
@@ -25,7 +25,10 @@
 
 
 ########### END YER CODE ABOVE THIS LINE ###########
-
+response = input("Would you like a compliment? ")
+if response == 'yes':
+    print("You have wonderful eyes.")
+print("Thank you for playing.")
     
 
 
@@ -66,12 +69,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+5, the hardest part was figuring out where my indentation went wrong.
 
 
 
 2. What was the hardest part of this lab?
-
+see above
 
 
 
